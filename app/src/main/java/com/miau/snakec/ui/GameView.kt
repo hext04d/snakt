@@ -115,7 +115,7 @@ class GameView @JvmOverloads constructor(
         // Draw Snake
         for (index in engine.state.snake.indices) {
             val c = engine.state.snake[index]
-            paint.color = 0xFF667C4D.toInt() // Dark pastel green
+            paint.color = 0xFF0E8C5A.toInt()
             canvas.drawRect(
                 c.x * cellW + 2f,
                 c.y * cellH + 2f,
